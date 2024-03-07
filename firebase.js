@@ -16,3 +16,7 @@
     messagingSenderId: "42379988966",
     appId: "1:42379988966:web:2b20f00c8da3e4709bd027",
     measurementId: "G-3X75G04KD4"
+import { getDatabase } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-database.js";
+const firebaseApp = initializeApp(firebaseConfig);
+const database = getDatabase(firebaseApp);
+const likesRef = ref(database, 'likes');
