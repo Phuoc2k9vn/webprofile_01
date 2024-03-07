@@ -7,7 +7,8 @@ body {
   
   .container {
     padding: 20px;
-.profile-header {
+  {     
+.profile-header
   position: relative;
   height: 300px;
   background-image: url('imgaes/bg.jpg');
@@ -26,18 +27,6 @@ body {
   background-color: rgba(0, 0, 0, 0.4); /* Màu nền overlay */
 }
 
-.profile-header
-  position: absolute;
-  bottom: -75px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 150px;
-  height: 150px;
-  border: 5px solid #fff;
-  border-radius: 50%;
-  background-color: #fff;
-}
-  
 .profile-image {
   width: 150px;
   height: 150px;
